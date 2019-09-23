@@ -16,3 +16,5 @@ Bazı önemli javascript konularını içerir.
 ### [6. Apply, Call, Bind](https://github.com/grkmtsn/js-musts/blob/master/6-apply-call-bind.js)
 
 ### [7. Polymorphism](https://github.com/grkmtsn/js-musts/blob/master/7-polymorphism.js)
+
+### [8. Callback, Promise, Async-Await](https://github.com/grkmtsn/js-musts/blob/master/8-callback-promise-async_await.js)
