@@ -18,3 +18,7 @@ Bazı önemli javascript konularını içerir.
 ### [7. Polymorphism](https://github.com/grkmtsn/js-musts/blob/master/7-polymorphism.js)
 
 ### [8. Callback, Promise, Async-Await](https://github.com/grkmtsn/js-musts/blob/master/8-callback-promise-async_await.js)
+
+### [8. Callback, Promise, Async-Await](https://github.com/grkmtsn/js-musts/blob/master/8-callback-promise-async_await.js)
+
+### [9. Memoization](https://github.com/grkmtsn/js-musts/blob/master/9-memoization.js)

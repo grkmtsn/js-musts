@@ -8,11 +8,12 @@ const memoizedFunc = function () {
   let cache = {};
   return function (value) {
     if (value in cache) {
-      console.log('Fetching from cache');
       return cache[value];
     } else {
-      console.log('Calculating result');
-      let result = value + 10;
+      let result = 0;
+      for (let index = 0; index < value; index++) {
+        result += index;
+      }
       cache[value] = result;
       return result;
     }
@@ -20,6 +21,10 @@ const memoizedFunc = function () {
 }
 
 const addTen = memoizedFunc();
-console.log(addTen(2));
-console.log(addTen(10));
-console.log(addTen(2));
+console.time();
+console.log(addTen(100000));
+console.timeEnd(); // Output: 2.510986328125ms
+
+console.time();
+console.log(addTen(100000));
+console.timeEnd(); // Output: 0.107177734375ms
