@@ -13,5 +13,5 @@ var makeDiscount = function(amount) {
 console.log(makeDiscount.call(phone, 0.1)); // Output: 4500 - İlk parametre this e karşılık gelecek olan nesne, sonraki yazılan diğer bütün parametreler asıl fonksiyonun alacağı parametrelerdir.
 console.log(makeDiscount.apply(phone, [0.1])); // Output: 4500 - İlk parametre this e karşılık gelecek olan nesne, sonraki parametre asıl fonksiyonun alacağı parametrelerden oluşan bir dizidir.
 
-var boundFunc = makeDiscount.bind(phone); // İlk parametre yine fonksiyonun hangi nesneye bağlanacağını alır.
+var boundFunc = makeDiscount.bind(phone,0.1); // İlk parametre yine fonksiyonun hangi nesneye bağlanacağını alır.
 console.log(boundFunc()); // Output: 4500
